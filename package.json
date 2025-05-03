@@ -1,0 +1,24 @@
+{
+  "name": "ph",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"ts-node-dev --respawn --transpile-only ./module1/src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaxonRafi/typeScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaxonRafi/typeScript/issues"
+  },
+  "homepage": "https://github.com/RaxonRafi/typeScript#readme",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0"
+  }
+}

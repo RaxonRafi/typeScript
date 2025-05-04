@@ -1,6 +1,5 @@
 {
 
-
 let hello: string = "Muhammad Rafi hello world!"
 console.log(hello);
 
@@ -54,4 +53,28 @@ const numbers : number[] = [1,2,3,4,5,6]
 const numbers2 : number[] = [7,8,...numbers,10]
 console.log(numbers2);
 
+//type alias 
+type TNickname = 'Hello' | 'World'
+
+const person : TNickname = 'Hello'
+
+type A = {
+    Frontend: 'pro'
+}
+type B = {
+    Backend: 'pro'
+}
+
+type AB = A & B;
+
+const FullStack:AB={
+    Frontend:'pro',
+    Backend:'pro'
+}
+console.log(FullStack);
+
+//ternary operator 
+let userAge: number = 25
+const status = userAge >= 18 ? 'approved' : 'pending'
+console.log(status);
 }
